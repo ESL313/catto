@@ -1,0 +1,4 @@
+"strings.cat" $drop
+"Catto doesn't actually have comments, '$drop' removes this string from the stack." $drop
+
+foo bar "Hello World" "String with \"nested\" quotes"

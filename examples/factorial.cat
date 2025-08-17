@@ -1,0 +1,4 @@
+"factorial.cat" $drop
+
+"$dupe $dupe 0 $== $swap 1 $== $or \"$drop 1\" \"$dupe 1 $- $factorial $*\" $if $eval" :factorial
+$factorial

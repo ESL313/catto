@@ -1,0 +1,8 @@
+"prefixes.cat" $drop
+
+"The following line stores 'Hello World' to 'My Variable'" $drop
+"Hello World" :"My Variable"
+
+"Calling it parses the stored string as a Catto program and runs it." $drop
+"Hence 'Hello World' becomes two strings: 'Hello' and 'World'." $drop
+$"My Variable"
